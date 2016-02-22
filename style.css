@@ -40,3 +40,11 @@ body{
 .material_button:hover{
 	box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.19);
 }
+
+.correct{
+	color: green;
+}
+
+.incorrect{
+	color: red;
+}
