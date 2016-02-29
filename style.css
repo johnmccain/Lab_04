@@ -48,3 +48,7 @@ body{
 .incorrect{
 	color: red;
 }
+
+.product_image{
+	float: right;
+}
