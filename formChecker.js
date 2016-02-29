@@ -39,5 +39,16 @@ function validate()
     alert('please select a shipping option');
     return false;
   }
+  else if(document.getElementById('userField').value == "")
+  {
+    alert('please enter a username');
+    return false;
+  }
+  else if(document.getElementById('passField').value == "")
+  {
+    alert('please enter a password');
+    return false;
+  }
+
   return true;
 }
